@@ -1,3 +1,14 @@
+# To run....
+The only dependency required is Django.
+To start webserver, point your command line to the outer "attainia project" folder, and run
+  $ python manage.py runserver
+The project can then be accessed at
+  http://localhost:8000/usertables
+It will start at the first page specified by the project requirements, and then have a link to reach the second page (also accessible at http://localhost:8000/usertables/page2). The JSON file is exposed at http://localhost:8000/usertables/users.
+
+
+
+
 # User Activity Monitor
 
 ## Resources
