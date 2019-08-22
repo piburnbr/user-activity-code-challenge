@@ -1,0 +1,19 @@
+.redrow
+{
+  background-color: red;
+}
+
+.greenrow
+{
+  background-color: green;
+}
+
+table
+{
+  border-collapse: collapse;
+}
+td
+{
+  border: 1px solid black;
+  padding: 2px;
+}

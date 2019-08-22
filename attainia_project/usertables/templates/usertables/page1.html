@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'styles.css' %}">
+  <title>Ben's Attainia Project</title>
+</head>
+<body>
+  <div id="app">
+    <h1>Page 1</h1>
+    <usertable highlight="redrow" :showzeroes="true"></usertable>
+    </br>
+    </br>
+    </br>
+    <a href="{% url 'page2' %}">Go to Page 2</a>
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="http://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="{% static 'main.js' %}"></script>
+</body>
+</html>
