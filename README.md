@@ -7,6 +7,8 @@ The project can then be accessed at
 It will start at the first page specified by the project requirements, and then have a link to reach the second page (also accessible at http://localhost:8000/usertables/page2). The JSON file is exposed at http://localhost:8000/usertables/users.
 
 
+For the sake of Django file structure, the location of the JSON file is now /attainia_project/usertables/static/users.json.
+
 
 
 # User Activity Monitor
